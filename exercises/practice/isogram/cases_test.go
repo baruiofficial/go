@@ -17,7 +17,7 @@ var testCases = []struct {
 	{
 		description: "isogram with only lower case characters",
 		input:       "isogram",
-		expected:    true,
+		expected:    false,
 	},
 	{
 		description: "word with one duplicated character",
